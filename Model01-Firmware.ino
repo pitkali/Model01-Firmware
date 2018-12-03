@@ -495,7 +495,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
 void setup() {
   QUKEYS(
     kaleidoscope::Qukey(0, 2, 0, Key_RightControl),      // PgUp/RightCtrl
+    kaleidoscope::Qukey(FUNCTION, 2, 0, Key_RightControl), // PgUp/RightCtrl
     kaleidoscope::Qukey(0, 3, 0, Key_LeftShift),         // PgDown/LeftShift
+    kaleidoscope::Qukey(FUNCTION, 3, 0, Key_LeftShift),  // PgDown/LeftShift
     kaleidoscope::Qukey(0, 0, 6, ShiftToLayer(NUMPAD)),  // LED/NUM
     kaleidoscope::Qukey(0, 0, 9, Key_RightControl)       // Any/RightCtrl
   )
