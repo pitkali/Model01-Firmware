@@ -505,7 +505,7 @@ void setup() {
   // The delay when key presses are considered simultaneous. I need this,
   // because of the tendency to release the second key before the modifier.
   // Example from Qukeys uses 20, but the default in Karabiner is 50.
-  Qukeys.setReleaseDelay(20);
+  Qukeys.setReleaseDelay(50);
 
   // First, call Kaleidoscope's internal setup function
   Kaleidoscope.setup();
